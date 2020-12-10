@@ -14,6 +14,6 @@ In review of the Kickstarter data, specifically surrounding theater/plays in the
 
 ## Recommendation
 
-Based on the analysis of the kickstarter data provided, theater is the most common kickstarter category. Louise should start her theater/play kickstarter campaign in May, as the month of May has been the most successful month for these campaigns. Since Louise's upcoming project is to create a play in the US, it is my recommendation to aim for a goal of $3,000 for the campaign. The data does show there are campaigns with goals higher than this that have been successful, however these are outliers in the overall data set and the median goal of failed campaigns is $5,000. 
+Based on the analysis of the kickstarter data provided, theater is the most common kickstarter category. Louise should start her theater/play kickstarter campaign in May, as the month of May has been the most successful month for these campaigns. Since Louise's upcoming project is to create a play in the US, it is my recommendation to aim for a goal of $3,000 for the campaign. The data does show there are campaigns with goals higher than this that have been successful, however these are outliers in the overall data set and the median goal of failed campaigns is $5,000.
 
-
+TEST GIT COMMAND
