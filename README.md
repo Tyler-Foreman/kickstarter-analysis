@@ -17,7 +17,7 @@ We can see that theater is the most common Kickstarter campaign category by seve
 
 ## US Theater/Play - Subcategory Analysis
 
-While it is important to know how many theater campaigns have been started in the US on Kickstarter, Kickstarter does classify 3 subcategories under the parent category for theater. Since Louise is looking to create a Kickstarter campaign for her upcoming theater play - I looked to narrow this data even further. I created a new worksheet for a new pivot table and chart that housed subcategory statistics to be able to narrow my search for theater/play campaigns in the US. I was able to find out that most of the campaigns in the US for the parent category theater, are in fact campaigns for plays. Based on the chart below, you will see that 
+While it is important to know how many theater campaigns have been started in the US on Kickstarter, Kickstarter does classify 3 subcategories under the parent category for theater. Since Louise is looking to create a Kickstarter campaign for her upcoming theater play - I looked to narrow this data even further. I created a new worksheet for a new pivot table and chart that housed subcategory statistics to be able to narrow my search for theater/play campaigns in the US. I was able to find out that most of the campaigns in the US for the parent category theater, are in fact campaigns for plays. This can be seen in the chart below.
 
 ![Theater Play Campaigns in the US](/Theater_Play_Campaigns_US.png "Theater/Play Campaigns in the US")
 
@@ -43,13 +43,13 @@ I then took the above data and narrowed it further to filter the raw data set by
 
 ### US Theater/Play - Failed Goal Median
 
-After obtaining an understanding of successful theater/play campaign goals, I went back to the raw data set to adjust this to view failed theater campaigns. I felt this information would be helpful to obtain an understanding of what goals these failed campaigns were aiming for, so that we could properly advise Louise on a proper goal range that will provide her with the best success. As seen in the failed US plays graph below, we see that the median goal is $5,000 and that 75% of the failed plays had a goal of $10,000 or less.
+After obtaining an understanding of successful theater/play campaign goals, I went back to the raw data set to adjust this to view failed theater/play campaigns. I felt this information would be helpful to obtain an understanding of what goals these failed campaigns were aiming for, so that we could properly advise Louise on a proper goal range that will provide her with the best success. As seen in the failed US plays graph below, we see that the median goal is $5,000 and that 75% of the failed plays had a goal of $10,000 or less.
 
 ![Failed_US_Plays_Based_On_Goals](/Failed_US_Plays_Based_On_Goals.png "Failed US Plays Based On Goals")
 
 ### US Theater/Play - Overall Outcomes Based on Goals
 
-This information was helpful to gather, however it would also be best to understand how successful all of these campaigns were based on their goal. I created a new worksheet in which I built out a table that defines a series of goal ranges, calculating the number of successful/failed/cancelled theater/play campaigns. With this data properly calculated in my new worksheet, I performed a statistical analysis of the percentage of success/failed/cancelled within each goal range. From there I then illustrated this using a line chart, with the x-axis showing the specific goal ranges and the y-axis showing the percentage metrics as seen below.
+This information was helpful to gather, however it would also be best to understand how successful all of these campaigns were based on their goal. I created a new worksheet in which I built out a table that defines a series of goal ranges, calculating the number of successful/failed/cancelled theater/play campaigns using the COUNTIFS function. With this data properly calculated in my new worksheet, I performed a statistical analysis of the percentage of success/failed/cancelled within each goal range. From there I then illustrated this using a line chart, with the x-axis showing the specific goal ranges and the y-axis showing the percentage metrics as seen below.
 
 ![Theater/Play Outcomes Based on Goals](/Resources/Outcomes_vs_Goals.png "Theater/Play Outcomes Based on Goals")
 
@@ -57,7 +57,7 @@ This information was helpful to gather, however it would also be best to underst
 
 Based on my review and analysis of the kickstarter data provided, Louise should start her theater/play kickstarter campaign in the US in the month of May. May has been the most successful month for these campaigns historically per our review of the campaign based on launch date analysis.
 
-Since Louise's upcoming project is to for a play in the US, it is my recommendation to aim for a goal of $3,000 - $4,000 for the campaign. The data does show there are campaigns with goals higher than this that have been successful, however these are outliers in the overall data set and the median goal of a successful campaign is $3,000 as where the median of failed campaigns is $5,000. As we see in the 'Outcomes Based on Goal' graphic above the success of a campaign goal between $1,000 - $4,999 is near 80% and precipitously drops below 60% when the campaign goal is $5,000 - $9,999.
+Since Louise's upcoming project is to for a play in the US, it is my recommendation to aim for a goal of $3,000 - $4,000 for her campaign. The data does show there are campaigns with goals higher than this that have been successful, however these are outliers in the overall data set and the median goal of a successful campaign is $3,000 as where the median of failed campaigns is $5,000. As we see in the 'Outcomes Based on Goal' graphic above the success of a campaign goal between $1,000 - $4,999 is near 80% and precipitously drops below 60% when the campaign goal is $5,000 - $9,999.
 
 ## Challenges
 
